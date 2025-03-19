@@ -20,7 +20,7 @@ html, body {
 .header {
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(images/banner.jpg);
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url('../images/banner.jpg');
     background-position: center;
     background-size: cover;
     position: relative;
@@ -28,14 +28,13 @@ html, body {
 
 nav {
     display: flex;
-    padding: 2% 6%;
+    padding: 2% 4%;
     justify-content: space-between;
     align-items: center;
 }
 
 nav img {
-    width: 150px;
-
+    width: 80px;
 }
 
 .nav-links {
@@ -60,7 +59,7 @@ nav img {
     content: '';
     width: 0%;
     height: 2px;
-    background: #0A1F44;
+    background: #F8B400;
     display: block;
     margin: auto;
     transition: 0.5s;
@@ -82,10 +81,12 @@ nav img {
 
 .text-box h1 {
     font-size: 62px;
+    line-height: 1.2em;
 }
 
 .text-box h1 span{
-    color: #0A1F44;
+    color: #F8B400;
+    font-size:65px;
 }
 
 .text-box p {
@@ -100,15 +101,15 @@ nav img {
     color: #fff;
     border: 1px solid #fff;
     padding: 12px 24px;
-    font-size: 13px;
+    font-size: 16px;
     background: transparent;
     position: relative;
     cursor: pointer;
 }
 
 .hero-btn:hover {
-    border: 1px solid #F8B400;
-    background-color: #F8B400;
+    border: 1px solid #0A1F44 ;
+    background-color: #0A1F44;
     transition: 1s;
 }
 
@@ -119,10 +120,15 @@ nav .fa {
 @media(max-width: 700px) {
     .text-box h1 {
         font-size: 35px;
+        line-height: 1.6em;
     }
 
     .text-box p {
         font-size: 15px;
+    }
+
+    .hero-btn {
+        font-size: 10px;
     }
 
     .nav-links ul li {
@@ -151,6 +157,10 @@ nav .fa {
 
     .nav-links ul {
         padding: 30px;
+    }
+
+    nav img {
+        width: 50px;
     }
 }
 
