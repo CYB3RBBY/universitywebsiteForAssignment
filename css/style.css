@@ -5,13 +5,17 @@
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
 }
 
-@media(max-width: 700px) {
-    body{
-        overflow-x: hidden;
-    }
-}
+html, body {
+    overflow-x: hidden;
+  }
+  
+  img, div, section {
+    max-width: 100%;
+  }
+  
 
 .header {
     min-height: 100vh;
@@ -114,7 +118,11 @@ nav .fa {
 
 @media(max-width: 700px) {
     .text-box h1 {
-        font-size: 20px;
+        font-size: 35px;
+    }
+
+    .text-box p {
+        font-size: 15px;
     }
 
     .nav-links ul li {
@@ -334,7 +342,7 @@ h3 {
 .cta{
     margin: 100px auto;
     width: 80%;
-    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(images/homeBanner.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url();
     background-position: center;
     background-size: cover;
     border-radius: 10px;
@@ -420,6 +428,17 @@ h3 {
     margin: 0 13px;
     cursor: pointer;
     padding: 18px 0;
+}
+
+@media(max-width: 700px){
+    .footer{
+        flex-direction: column;
+        gap: 1em;
+    }
+    .footer .icons{
+        flex-direction: row;
+    }
+
 }
 
 /* bottom-bar */
