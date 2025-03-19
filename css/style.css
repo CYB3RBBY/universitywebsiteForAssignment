@@ -64,19 +64,23 @@ nav img {
     width: 90%;
     color: #fff;
     position: absolute;
-    top: 50%;
+    top: 70%;
     left: 50%;
     transform: translate(-50%, -50%);
-    text-align: center;
+    text-align: left;
 }
 
 .text-box h1 {
     font-size: 62px;
 }
 
+.text-box h1 span{
+    color: #f44336;
+}
+
 .text-box p {
     margin: 10px 0 40px;
-    font-size: 14px;
+    font-size: 18px;
     color: #fff;
 }
 
