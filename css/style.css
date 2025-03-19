@@ -352,15 +352,18 @@ h3 {
 /* footer */
 
 .footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
     width: 100%;
-    text-align: center;
-    padding: 30px 0;
+    height:70%;
+    text-align: left;
+    background-color: #f44336;
+    color: #fff;
 }
 
-.footer h4{
-    margin-bottom:25px;
-    margin-top: 20px;
-    font-weight: 600;
+.footer div{
+    padding: 15px;
 }
 
 .icons .fa-solid{
@@ -368,8 +371,4 @@ h3 {
     margin: 0 13px;
     cursor: pointer;
     padding: 18px 0;
-}
-
-.icons .fa-star{
-    color: #FFD700;
 }
