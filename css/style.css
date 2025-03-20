@@ -418,6 +418,9 @@ h3 {
 
 .program-list li{
     color:#1e1e1e;
+    margin:8px 0;
+    display:flex;
+    align-items: center;
     list-style-type: none;
     font-weight: 500;
 }
