@@ -379,31 +379,59 @@ h3 {
     margin: auto;
     text-align: center;
     padding: 6em 4em;
-    background: rgb(248,180,0);
-    background: linear-gradient(183deg, rgba(248,180,0,1) 0%, rgba(10,31,68,1) 100%);
+    color: white;
+    background-color:#F8B400;
 }
 
 .program-list h1{
+    color: #1e1e1e;
+    font-size:2.6em;
     margin:0.5em;
 }
 
 .program-list p {
+    color:#fff;
+    font-weight:400;
     font-size: 17px;
 }
 
 .program-list-flex{
+    margin: 6em 1em 2em 1em;
     display: flex;
     justify-content: space-evenly;
     flex-direction: row;
-    gap:2em;
+    gap:1.5em;
 }
 
 .program-list-item{
     flex: 1;
     text-align: left;
+    background-color:#fff;
+    padding:1.2em;
+    border-radius: 5px;
 }
+
+.program-list-item h2{
+    margin-bottom:0.5em;
+    color:#1e1e1e;
+}
+
 .program-list li{
+    color:#1e1e1e;
     list-style-type: none;
+    font-weight: 500;
+}
+
+.program-list li img{
+    width: 40px;
+    border-radius:20px;
+    margin-right: 10px;
+}
+
+@media (max-width:700px){
+   .program-list-flex{
+        flex-direction: column;
+    }
 }
 
 /* footer */
@@ -464,6 +492,7 @@ h3 {
 
 .footer .icons .custom-fa{
     font-size:30px;
+    color: #F8B400;
 }
 
 
