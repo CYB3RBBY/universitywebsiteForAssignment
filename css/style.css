@@ -372,6 +372,40 @@ h3 {
     }
 }
 
+/* program-list */
+
+.program-list{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding: 6em 4em;
+    background: rgb(248,180,0);
+    background: linear-gradient(183deg, rgba(248,180,0,1) 0%, rgba(10,31,68,1) 100%);
+}
+
+.program-list h1{
+    margin:0.5em;
+}
+
+.program-list p {
+    font-size: 17px;
+}
+
+.program-list-flex{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    gap:2em;
+}
+
+.program-list-item{
+    flex: 1;
+    text-align: left;
+}
+.program-list li{
+    list-style-type: none;
+}
+
 /* footer */
 
 .footer{
