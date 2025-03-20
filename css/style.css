@@ -445,6 +445,16 @@ h3 {
     }
 }
 
+/* registration */
+
+.registration{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding: 6em 4em;
+    background-color:#F8B400;
+}
+
 /* footer */
 
 .footer{

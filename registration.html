@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/57db13add5.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <!-- header -->
+
+    <section class="header">
+        <nav>
+            <div><a href="index.html"><img src="images/logo.png" alt=""></a></div>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="programList.html">Programs</a></li>
+                    <li><a href="registration.html">Registration</a></li>
+                    <li><a href="feedback.html">Feeback</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-solid fa-bars" onclick="showMenu()" style="color: #ffffff;"></i>
+        </nav>
+
+        <div class="text-box">
+            <h1>Join <span>Eldermere <br>University</span> Today!</h1>
+            <p>Congratulations on your success! Your journey towards excellence begins here.               We are excited to  <br> welcome you to our esteemed institution, where knowledge meets opportunity.</p>
+            <a href="" class="hero-btn">Get Started – Register Now</a>
+        </div>
+
+    </section>
+
+    <!-- Registration Form -->
+
+    <section class="registration">
+        <h2>Join Eldermere University</h2>
+        <p>Fill out the form below to register and take the first step toward your academic journey with us.</p>
+        
+        <form action="#" method="post">
+            <div class="form-group">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+            </div>
+    
+            <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            </div>
+    
+            <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+            </div>
+    
+            <div class="form-group">
+                <label for="program">Select Program</label>
+                <select id="program" name="program" required>
+                    <option value="" disabled selected>Select your program</option>
+                    <option value="bachelor">Bachelor’s Degree</option>
+                    <option value="master">Master’s Degree</option>
+                    <option value="phd">B.Tech</option>
+                    <option value="diploma">Diploma Courses</option>
+                </select>
+            </div>
+    
+            <div class="form-group">
+                <label for="message">Additional Message (Optional)</label>
+                <textarea id="message" name="message" rows="3" placeholder="Any specific requests or questions?"></textarea>
+            </div>
+    
+            <button type="submit" class="register-btn">Register Now</button>
+        </form>
+    </section>
+    
+
+    <!-- footer -->
+
+    <section class="footer">
+        <div class="footer-item footer-text">
+            <h3>About Us</h3>
+            <p>Welcome to Eldermere, a premier institution committed to excellence in education.
+                Our university provides a diverse range of academic programs designed to foster knowledge, innovation,
+                and leadership. We take pride in shaping the future of students through high-quality education and
+                research opportunities. Explore our admission process and become a part of our vibrant academic
+                community!</p>
+        </div>
+
+        <div class="footer-item contact-us">
+            <ul>
+                <h3>Contact Us</h3>
+            </ul>
+            <li><i class="fa-solid fa-envelope" style="color: #ffffff;"></i>
+                <a href="">info@eldermere.edu</a>
+            </li>
+            <li><i class="fa-solid fa-phone" style="color: #ffffff;"></i>
+                <a href="">+91 12345 67897</a>
+            </li>
+            <li><i class="fa-solid fa-location-dot" style="color: #ffffff;"></i>
+                <a href="">Near Pine Valley, Mall Road
+                    Mussoorie, Uttarakhand - 248179
+                    India</a>
+            </li>
+
+        </div>
+        <div class="footer-item icons">
+            <i class="fa-brands fa-facebook custom-fa"></i>
+            <i class="fa-brands fa-twitter custom-fa"></i>
+            <i class="fa-brands fa-instagram custom-fa"></i>
+            <i class="fa-brands fa-linkedin custom-fa"></i>
+        </div>
+    </section>
+
+    <!-- footer ribbon -->
+
+    <section class="bottom-bar">
+        <p>&copy; 2021 Eldermere University. All Rights Reserved.</p>
+    </section>
+
+
+    <!-- javascript for toggle menu -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+</body>
+
+</html>
