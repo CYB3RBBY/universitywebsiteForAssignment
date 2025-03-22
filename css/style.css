@@ -29,6 +29,21 @@ section {
     position: relative;
 }
 
+.programList-header {
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url('../images/banner2.jpg');
+    background-position: center;
+}
+
+.registration-header {
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url('../images/banner3.jpg');
+    background-position: center;
+}
+
+.feedback-header {
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url('../images/banner4.jpg');
+    background-position: center;
+}
+
 nav {
     display: flex;
     padding: 2% 4%;
@@ -170,6 +185,7 @@ nav .fa {
     nav img {
         width: 50px;
     }
+
     .text-box h1 span {
         font-size: 55px;
     }
@@ -379,56 +395,58 @@ button:hover {
 }
 
 @media (max-width:700px) {
-    .registration{
+    .registration {
         padding: 4em;
     }
-    .feedback{
+
+    .feedback {
         padding: 4em;
     }
-    form{
+
+    form {
         width: 100%;
     }
 }
 
 /* feedback */
 .feedback {
-        width: 100%;
-        margin: auto;
-        text-align: center;
-        padding: 6em 4em;
-        background-color: #F8B400;
-    }
-    
-    .feedback h1 {
-        color: #0A1F44;
-        font-size: 2.8em;
-        margin: 0.5em;
-    }
-    
-    .feedback h1 span {
-        color: white;
-    }
-    
-    .feedback p {
-        color: #fff;
-        font-weight: 400;
-        font-size: 17px;
-    }
-    
-    .feedback-form {
-        margin: 5em 1em 2em 1em;
-        text-align: left;
-        display: flex;
-        justify-content: space-evenly;
-        flex-direction: column;
-        gap: 1.5em;
-    }
-    
-    .feedback .feedback-flex {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }    
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding: 6em 4em;
+    background-color: #F8B400;
+}
+
+.feedback h1 {
+    color: #0A1F44;
+    font-size: 2.8em;
+    margin: 0.5em;
+}
+
+.feedback h1 span {
+    color: white;
+}
+
+.feedback p {
+    color: #fff;
+    font-weight: 400;
+    font-size: 17px;
+}
+
+.feedback-form {
+    margin: 5em 1em 2em 1em;
+    text-align: left;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    gap: 1.5em;
+}
+
+.feedback .feedback-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 /* footer */
 
