@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/57db13add5.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <!-- header -->
+
+    <section class="header">
+        <nav>
+            <div><a href="index.html"><img src="images/logo.png" alt=""></a></div>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="programList.html">Programs</a></li>
+                    <li><a href="registration.html">Registration</a></li>
+                    <li><a href="feedback.html">Feeback</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-solid fa-bars" onclick="showMenu()" style="color: #ffffff;"></i>
+        </nav>
+
+        <div class="text-box">
+            <h1>Welcome to <br><span>Eldermere</span> University.</h1>
+            <p>Dear Students, Congratulations on your success! We look forward to welcoming you to our esteemed
+                institution.
+            </p>
+            <a href="" class="hero-btn">Visit Us To Know More</a>
+        </div>
+
+    </section>
+
+    <!-- footer -->
+
+    <section class="footer">
+        <div class="footer-item footer-text">
+            <h3>About Us</h3>
+            <p>Welcome to Eldermere, a premier institution committed to excellence in education.
+                Our university provides a diverse range of academic programs designed to foster knowledge, innovation,
+                and leadership. We take pride in shaping the future of students through high-quality education and
+                research opportunities. Explore our admission process and become a part of our vibrant academic
+                community!</p>
+        </div>
+
+        <div class="footer-item contact-us">
+            <ul>
+                <h3>Contact Us</h3>
+            </ul>
+            <li><i class="fa-solid fa-envelope" style="color: #ffffff;"></i>
+                <a href="">info@eldermere.edu</a>
+            </li>
+            <li><i class="fa-solid fa-phone" style="color: #ffffff;"></i>
+                <a href="">+91 12345 67897</a>
+            </li>
+            <li><i class="fa-solid fa-location-dot" style="color: #ffffff;"></i>
+                <a href="">Near Pine Valley, Mall Road
+                    Mussoorie, Uttarakhand - 248179
+                    India</a>
+            </li>
+
+        </div>
+        <div class="footer-item icons">
+            <i class="fa-brands fa-facebook custom-fa"></i>
+            <i class="fa-brands fa-twitter custom-fa"></i>
+            <i class="fa-brands fa-instagram custom-fa"></i>
+            <i class="fa-brands fa-linkedin custom-fa"></i>
+        </div>
+    </section>
+
+    <!-- footer ribbon -->
+
+    <section class="bottom-bar">
+        <p>&copy; 2021 Eldermere University. All Rights Reserved.</p>
+    </section>
+
+
+    <!-- javascript for toggle menu -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+</body>
+
+</html>
