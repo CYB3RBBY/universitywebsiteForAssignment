@@ -539,6 +539,7 @@ button:hover {
 /* bottom-bar */
 
 .bottom-bar {
+    color:#ccc;
     background-color: #1e1e1e;
     text-align: center;
     padding: 10px;
