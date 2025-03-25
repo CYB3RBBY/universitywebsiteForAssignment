@@ -53,9 +53,12 @@ nav {
     top: 0;
     left: 0;
     width: 100%;
-    background: #0A1F44; /* Adjust color as needed */
-    z-index: 1000; /* Ensures navbar stays above other elements */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow */
+    background: #0A1F44;
+    /* Adjust color as needed */
+    z-index: 1000;
+    /* Ensures navbar stays above other elements */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    /* Optional: Adds a subtle shadow */
 }
 
 nav img {
@@ -320,13 +323,12 @@ nav .fa {
         flex-direction: column;
 
     }
+
     .program-list h1 {
-        align-items: center;
-        color: #0A1F44;
         font-size: 2em;
         margin: -1em;
     }
-    
+
 }
 
 /* registration */
@@ -413,6 +415,13 @@ button:hover {
 @media (max-width:768px) {
     .registration {
         padding: 4em;
+    }
+
+
+    .registration h1 {
+        color: #0A1F44;
+        font-size:2em;
+        margin: -1em -1em 0.5em -1em;
     }
 
     .feedback {
@@ -548,7 +557,7 @@ button:hover {
 /* bottom-bar */
 
 .bottom-bar {
-    color:#ccc;
+    color: #ccc;
     background-color: #1e1e1e;
     text-align: center;
     padding: 10px;
