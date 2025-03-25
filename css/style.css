@@ -473,6 +473,13 @@ button:hover {
     align-items: center;
 }
 
+@media (max-width: 768px){
+    .feedback h1 {
+        font-size: 2em;
+        margin: 0.5em -1em;
+    }
+}
+
 /* footer */
 
 .footer {
@@ -550,11 +557,6 @@ button:hover {
 
     .footer .icons {
         flex-direction: row;
-    }
-
-    feedback h1 {
-        font-size: 2em;
-        margin: 0.5em -1em;
     }
 
 }
