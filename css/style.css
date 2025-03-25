@@ -318,6 +318,13 @@ nav .fa {
     .program-list-flex {
         flex-direction: column;
     }
+    .program-list h1 {
+        align-items: center;
+        color: #0A1F44;
+        font-size: 2em;
+        margin: 0.5em;
+    }
+    
 }
 
 /* registration */
