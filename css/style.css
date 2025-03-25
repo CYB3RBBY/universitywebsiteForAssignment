@@ -316,13 +316,15 @@ nav .fa {
 
 @media (max-width:768px) {
     .program-list-flex {
+        margin: 6em 0em 2em 0em;
         flex-direction: column;
+
     }
     .program-list h1 {
         align-items: center;
         color: #0A1F44;
         font-size: 2em;
-        margin: 0.5em;
+        margin: -1em;
     }
     
 }
