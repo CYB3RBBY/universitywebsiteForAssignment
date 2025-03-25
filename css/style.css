@@ -421,7 +421,7 @@ button:hover {
     .registration h1 {
         color: #0A1F44;
         font-size:2em;
-        margin: -1em -1em 0.5em -1em;
+        margin: 0.5em -1em;
     }
 
     .feedback {
