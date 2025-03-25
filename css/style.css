@@ -445,7 +445,7 @@ button:hover {
 .feedback h1 {
     color: #0A1F44;
     font-size: 2.8em;
-    margin: 0.5em;
+    margin-bottom: 0.5em;
 }
 
 .feedback h1 span {
@@ -476,7 +476,7 @@ button:hover {
 @media (max-width: 768px){
     .feedback h1 {
         font-size: 2em;
-        margin: 0.5em -1em;
+        margin-bottom: 0.5em;
     }
 }
 
